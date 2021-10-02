@@ -5,7 +5,7 @@ footer{
   background-color: #C9ECD5;
 }
 
-.dishes-in-circle {
+.carrot_dishes {
   margin: 100px;
   width: 400px;
   height: 400px;
@@ -17,4 +17,12 @@ footer{
   position: absolute;
   right: 30%;
   
+}
+.carrot_dishes img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px;
+  width: 100px;
+  height: 100px;
 }
