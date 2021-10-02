@@ -26,3 +26,23 @@ footer{
   width: 100px;
   height: 100px;
 }
+
+.carrot_dishes img:first-child {
+  transform: rotate(0deg) translateY(-200px);
+}
+
+.carrot_dishes img:nth-child(2) {
+  transform: rotate(45deg) translateY(-200px);
+}
+
+.carrot_dishes img:nth-child(3) {
+  transform: rotate(90deg) translateY(-200px);
+}
+
+.carrot_dishes img:nth-child(4) {
+  transform: rotate(-45deg) translateY(-200px);
+}
+
+.carrot_dishes img:nth-child(5) {
+  transform: rotate(-90deg) translateY(-200px);
+}
