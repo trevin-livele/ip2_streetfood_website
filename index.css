@@ -4,3 +4,17 @@
 footer{
   background-color: #C9ECD5;
 }
+
+.dishes-in-circle {
+  margin: 100px;
+  width: 400px;
+  height: 400px;
+  /*   add border top and right */
+  border-top: 3px dashed #ccc;
+  border-right: 3px dashed #ccc;
+  /*  make borders circular  */
+  border-radius: 50%;
+  position: absolute;
+  right: 30%;
+  
+}
