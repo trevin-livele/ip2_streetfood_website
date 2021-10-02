@@ -1,5 +1,6 @@
 * {
-  font-family: popins;
+  font-family: Poppins;
+  text-decoration: #EAAB1B, #6CB840;
 }
 footer{
   background-color: #C9ECD5;
@@ -45,4 +46,22 @@ footer{
 
 .carrot_dishes img:nth-child(5) {
   transform: rotate(-90deg) translateY(-200px);
+}
+.contact_us{
+  background-color: #FFD77C;
+}
+.hot_deals{
+background-color:  #C9ECB5;
+text-align: center;
+}
+
+.hot{
+  color: #000;
+  
+}
+.deals{
+  color: green;
+}
+.special{
+  color: green;
 }
