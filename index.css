@@ -2,7 +2,7 @@
   font-family: Poppins;
   text-decoration: #EAAB1B, #6CB840;
 }
-body{
+html,body{
   overflow-x: hidden;
 }
 footer{
@@ -118,11 +118,6 @@ button{
   background-color: #649549;
   color: white;
 }
-.contact_us{
-  background-color: #FFD77C;
-  text-align: center;
-  
-}
 .hot_deals{
 background-color:  #C9ECB5;
 text-align: center;
@@ -192,7 +187,30 @@ text-align: center;
   position: absolute;
 }
 
-.juice >img{
-  margin-left: -20px;
+#burger-juice{
+  margin-left: -400px;
+  margin-bottom: -100px;
 
+}
+.juice_section{
+  display: flex;
+}
+.juice_section > div{
+  width: 50%;
+}
+
+.contact_us{
+  background-color: #FFD77C;
+  display: flex;
+  justify-content: center;
+}
+
+.contact2{
+  width: 50%;
+  text-align: center;
+  
+}
+#email{
+  border-radius: 50px;
+  padding: 15px, 20px;
 }
