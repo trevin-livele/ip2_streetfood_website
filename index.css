@@ -155,3 +155,44 @@ text-align: center;
 .menu{
   columns: green;
 }
+
+.burger-display {
+  padding: 50px 20px;
+  background-color: #eaf3e4;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.burger {
+  background: #fff;
+  padding: 20px 20px 30px;
+  border-bottom-right-radius: 50px;
+  max-width: 300px;
+  margin: 0 30px 40px;
+}
+
+.burger_name {
+  margin: 0;
+}
+
+.burger-details{
+  text-align: center;
+  font-size: 19px;
+  line-height: 30px;
+  color: #252525;
+  margin: 0;
+  padding-top: 20px;
+  margin-left: 70px;
+}
+
+.image {
+  margin-left: -90px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.juice >img{
+  margin-left: -20px;
+
+}
